@@ -4,4 +4,5 @@
     <string name="senha">Senha:</string>
     <string name="btnEntrar">Entrar</string>
     <string name="btnSair">Sair</string>
+    <string name="t1">Cerveja</string>
 </resources>
