@@ -3,7 +3,7 @@
     <color name="colorPrimary">#00bcd4</color>
     <color name="colorPrimaryDark">#008ba3</color>
     <color name="colorAccent">#00bcd4</color>
-    <color name="corFonte">#fff</color>
+    <color name="corFonte">#000</color>
     <color name="fundoBotao">#81d4fa</color>
     <color name="fonteBotao">#fff</color>
     <color name="background">#eeeeee</color>

@@ -60,7 +60,7 @@
                     android:background="@color/fundoBotao"
                     android:onClick="entrarApp"
                     android:text="@string/btnEntrar"
-                    android:textColor="@color/fonteBotao" />
+                    android:textColor="@color/corFonte" />
 
                 <Button
                     android:id="@+id/btnSair"
@@ -69,7 +69,6 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:background="@color/fundoBotao"
-                    android:onClick="sairApp"
                     android:text="@string/btnSair"
                     android:textColor="@color/corFonte" />
 
