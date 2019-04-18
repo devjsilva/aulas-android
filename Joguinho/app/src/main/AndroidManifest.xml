@@ -9,6 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".Polo_Activity"></activity>
+        <activity android:name=".Pice_Activity" />
+        <activity android:name=".Parajas_Activity" />
+        <activity android:name=".Nhara_Activity" />
+        <activity android:name=".Mutin_Activity" />
+        <activity android:name=".JururaAcu_Activity" />
+        <activity android:name=".Jurupari_Activity" />
+        <activity android:name=".Guaraci_Activity" />
+        <activity android:name=".Ceuci_Activity" />
+        <activity android:name=".Caupe_Activity" />
+        <activity android:name=".Catu_Activity" />
+        <activity android:name=".Carandiro_Activity" />
+        <activity android:name=".Caramuru_Activity" />
+        <activity android:name=".Caapora_Activity" />
+        <activity android:name=".Arape_Activity" />
+        <activity android:name=".Araci_Activity" />
+        <activity android:name=".Anhum_Activity" />
+        <activity android:name=".Anhanga_Activity" />
+        <activity android:name=".Amanaci_Activity" />
+        <activity android:name=".Abeguar_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

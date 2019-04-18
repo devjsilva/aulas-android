@@ -4,53 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:orientation="vertical"
-    >
+    tools:context=".MainActivity">
 
     <TextView
-            android:layout_width="match_parent"
-            android:layout_height="35sp"
-            android:text="Escolha seu personagem!"
-            android:textSize="25sp"
-            android:textAlignment="center"/>
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:text="Escolha seu personagem!"
+        android:textAlignment="center"
+        android:textSize="25sp" />
 
     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:layout_margin="10dp"
+                    android:gravity="center"
                     android:orientation="vertical">
+
                     <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idAbeguar"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/abeguar"
-                        />
+                        android:src="@drawable/abeguar" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Abeguar"/>
+                        android:text="Abeguar" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:layout_margin="10dp"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idAmanaci"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/amanaci" />
@@ -58,96 +66,450 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Abeguar"/>
+                        android:text="Abeguar" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                    android:layout_width="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center">
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <LinearLayout
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idAnhanga"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/anhanga" />
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_margin="10dp"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:src="@drawable/anhanga"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Anhangá"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_margin="10dp"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:src="@drawable/anhum" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Anhum"/>
-                    </LinearLayout>
+                        android:text="Anhangá" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idAnhum"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/anhum" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anhum" />
+                </LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
-                    android:layout_width="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center">
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <LinearLayout
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idAraci"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/araci" />
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_margin="10dp"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:src="@drawable/araci"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Araci"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_margin="10dp"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:src="@drawable/arape" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Arapé"/>
-                    </LinearLayout>
-
+                        android:text="Araci" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:onClick="abrirImagem"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idArape"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/arape" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arapé" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idCaapora"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/caapora" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caaporã" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idCaramuru"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/caramuru" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caramuru"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idCarandiro"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/carandiro" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Carandiro" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:onClick="abrirImagem"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idCatu"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/catu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Catu" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idCaupe"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/caupe" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caupe" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:onClick="abrirImagem"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idCeuci"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ceuci" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ceuci" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idGuaraci"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/guaraci" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Guaraci" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:onClick="abrirImagem"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idJurupari"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/jurupari" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jurupari" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idJururaAcu"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/jururaacu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jurura-Açu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:onClick="abrirImagem"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idMutin"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/mutin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mutin" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idNhara"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/nhara" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nhara" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:onClick="abrirImagem"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idParajas"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/parajas" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parajás" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idPice"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/pice" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:onClick="abrirImagem"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="abrirImagem"
+                        android:id="@+id/idPolo"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/polo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Polo" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
 
     </ScrollView>
 

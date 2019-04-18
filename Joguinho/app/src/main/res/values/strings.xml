@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">MenuJoguinho</string>
+
+    <string name="textAbeguar"></string>
+    <string name="textAmanaci"></string>
+    <string name="textAnhanga"></string>
+    <string name="textAnhum"></string>
+    <string name="textAraci"></string>
+    <string name="textArape"></string>
+    <string name="textCaapora"></string>
+    <string name="textCaramuru"></string>
+    <string name="textCarandiro"></string>
+    <string name="textCatu"></string>
+    <string name="textCaupe"></string>
+    <string name="textCeuci"></string>
+    <string name="textGuaraci"></string>
+    <string name="textJurupari"></string>
+    <string name="textJururaAcu"></string>
+    <string name="textMutin"></string>
+    <string name="textNhara"></string>
+
 </resources>
