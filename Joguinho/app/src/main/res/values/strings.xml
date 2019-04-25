@@ -1,22 +1,25 @@
 <resources>
     <string name="app_name">MenuJoguinho</string>
 
-    <string name="textAbeguar"></string>
-    <string name="textAmanaci"></string>
-    <string name="textAnhanga"></string>
-    <string name="textAnhum"></string>
-    <string name="textAraci"></string>
-    <string name="textArape"></string>
-    <string name="textCaapora"></string>
-    <string name="textCaramuru"></string>
-    <string name="textCarandiro"></string>
-    <string name="textCatu"></string>
-    <string name="textCaupe"></string>
-    <string name="textCeuci"></string>
-    <string name="textGuaraci"></string>
-    <string name="textJurupari"></string>
-    <string name="textJururaAcu"></string>
-    <string name="textMutin"></string>
-    <string name="textNhara"></string>
+    <string name="textAbeguar">Deus do vôo</string>
+    <string name="textAmanaci">Deusa das chuvas.</string>
+    <string name="textAnhanga">Deus das trevas, deidade suprema dos Infernos.</string>
+    <string name="textAnhum">Deus da música, o deus melodioso que tocava divinamente o sacro Taré.</string>
+    <string name="textAraci">Deusa da aurora e das madrugadas. Foi ela que fez nascer o lendário Juazeiro.</string>
+    <string name="textArape">Deusa da dança.</string>
+    <string name="textCaapora">Deusa guardiã dos animais.</string>
+    <string name="textCaramuru">Deus dragão, que podia ser tanto bom quanto cruel, era o deus que presidia as ondas revoltas dos grandes oceanos.</string>
+    <string name="textCarandiro">Deus do fogo.</string>
+    <string name="textCatu">Deus outonal.</string>
+    <string name="textCaupe">Deusa da beleza, Afrodite-indígena</string>
+    <string name="textCeuci">Mãe de Jurupari, que ficou prenhe pelo sumo da fruta que, enquanto comia, lhe escorria pelos seios abaixo</string>
+    <string name="textGuaraci">Deus do sol, é a representação ou deidade do Sol, às vezes compreendido como aquele que dá a vida e criador de todos os seres vivos, tal qual o sol é importante nos processos biológicos.</string>
+    <string name="textJurupari">Conta-se que a índia Ceuci comeu o mapati, uma fruta que era proibida às mulheres quando se encontravam no período fértil. O suco da fruta escorreu pelo seu corpo até suas partes íntimas e assim, foi concebido um menino.\nComo punição, a índia foi expulsa da aldeia. Em realidade, o pai da criança era o próprio Sol, conhecido entre os indígenas como Guaraci.\nQuando chegou a hora do nascimento, seu filho revelou ser uma criatura sábia que viria ao mundo trazer novos costumes e leis para os homens. Por isso, Jurupari é tido como um legislador entre alguns povos indígenas.</string>
+    <string name="textJururaAcu">Deusa que tinha livre acesso ao submundo, por ter libertado Anhangá da prisão, tornou-se a única deusa que podia entrar e sair livremente do inferno, então, Tupã castigou esta deusa transformando-a em uma tartaruga, o que lhe dificultava a locomoção, mas em contra partida, lhe dava enorme poder de negociação, pois entrava e saía, sem ser muito notada, se disfarçava de pedra e sabia tudo o que acontecia em qualquer mundo.</string>
+    <string name="textMutin">Deus da primavera</string>
+    <string name="textNhara">Deus do inverno</string>
+    <string name="textParajas">Deusas da honra, do bem e da justiça.</string>
+    <string name="textPice"></string>
+    <string name="textPolo"></string>
 
 </resources>
