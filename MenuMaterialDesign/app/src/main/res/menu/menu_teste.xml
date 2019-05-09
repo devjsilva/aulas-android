@@ -31,4 +31,9 @@
         android:icon="@drawable/ic_star_dp"
         android:title="Favoritos"
         app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/mSobre"
+        android:icon="@drawable/ic_info_dp"
+        android:title="Sobre"
+        app:showAsAction="ifRoom"></item>
 </menu>
