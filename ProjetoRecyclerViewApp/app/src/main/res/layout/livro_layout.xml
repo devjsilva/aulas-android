@@ -54,7 +54,6 @@
                 android:text="Descrição"
                 android:textSize="18sp" />
 
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
