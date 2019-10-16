@@ -20,7 +20,7 @@ public class TesteToolBar_activity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Tu clicou no FAB rrapaz", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Tu clicou no FAB rapaz", Toast.LENGTH_SHORT).show();
             }
         });
     }
