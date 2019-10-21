@@ -18,6 +18,7 @@ class DbOperation
 		// Inicializando o link de conexão
         // chamando o método connect da classe DbConnect
         $this->con = $db->connect();
+        
     }
 	
 	/*

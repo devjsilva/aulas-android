@@ -268,10 +268,10 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-
+                    AlertDialog.Builder builder = new AlertDial
                     builder.setTitle("Apagar " + hero.getName())
-                            .setMessage("Tem certeza que deseja exluir?")
+                            .setMessage("Tem certeza que deseja exluir?")og.Builder(MainActivity.this);
+
                             .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
                                     deleteHero(hero.getId());
